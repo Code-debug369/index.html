@@ -5,90 +5,118 @@ Code
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Breaking the False Matrix – The War Beyond Time</title>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
-      font-family: 'Orbitron', sans-serif;
-      background: linear-gradient(135deg, #013220, #0b4d2b);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: radial-gradient(ellipse at center, #014421 0%, #000000 100%);
       color: gold;
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
+      overflow-x: hidden;
+    }
+    .glow {
+      text-shadow: 0 0 5px #00ffae, 0 0 10px #00ffae, 0 0 20px #00ffae, 0 0 40px #00ffae;
     }
     header {
-      background-color: #001a12;
-      text-align: center;
-      padding: 2rem 1rem;
-      border-bottom: 1px solid gold;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 1.8rem;
-    }
-    header h2 {
-      margin: 0;
-      font-size: 1rem;
-      color: #e6e600;
-    }
-    main {
-      flex: 1;
       padding: 2rem;
-    }
-    .book-links {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 1rem;
-      margin-top: 2rem;
-    }
-    .book-links a {
-      background-color: #002a1e;
-      border: 1px solid gold;
-      color: gold;
-      text-decoration: none;
-      padding: 1rem;
       text-align: center;
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: normal;
+      margin-top: 0;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+      padding: 1rem;
+    }
+    nav a {
+      text-decoration: none;
+      color: gold;
+      padding: 0.5rem 1rem;
+      border: 1px solid gold;
       border-radius: 8px;
-      transition: 0.3s;
+      transition: background 0.3s, color 0.3s;
     }
-    .book-links a:hover {
-      background-color: #004d33;
+    nav a:hover {
+      background: gold;
+      color: black;
     }
-    .book-links a:first-child {
-      color: red;
-      border-color: red;
+    nav a.active {
+      background: darkred;
+      color: gold;
+      font-weight: bold;
+    }
+    .content {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
+      background-color: rgba(0, 0, 0, 0.6);
+      border-radius: 20px;
+      box-shadow: 0 0 20px #00ffae;
     }
     footer {
       text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.7rem;
+      color: #aaa;
+    }
+    .legal {
       font-size: 0.65rem;
-      color: #888;
-      padding: 1rem;
-      background-color: #000;
-      border-top: 1px solid gold;
+      color: #666;
+      margin-top: 2rem;
     }
   </style>
 </head>
 <body>
-  <header>
+  <header class="glow">
     <h1>Breaking the False Matrix – The War Beyond Time</h1>
     <h2>Order of the Code Breakers</h2>
   </header>
-  <main>
-    <p>This is not just a book — it is a weapon. Crafted to shatter the False Matrix, it exposes the Demiurge, the Saturnian Hex, and the corrupted Metatron system. These seven books hold the original code of creation, and only through them can humanity reclaim its power.</p>
-    <p>"One book to awaken them. One to guide them. One to break the chains..."</p>
-    <p>All books are mobile-optimized and can be printed into physical form if desired.</p><div class="book-links">
-  <a href="book1.html">Book 1: Origins – The Root of the True Universe (22 USD)</a>
-  <a href="book2.html">Book 2: Sacral Flame – The Hidden Creation Codes</a>
-  <a href="book3.html">Book 3: Solar Reversal – Fire of the Divine Will</a>
-  <a href="book4.html">Book 4: Heart Breaker – The Return of the Living Flame</a>
-  <a href="book5.html">Book 5: Throat of Truth – Unsealing the Real Word</a>
-  <a href="book6.html">Book 6: Eye of the Infinite – Sight Beyond the Illusion</a>
-  <a href="book7.html">Book 7: Crownfire – The Source Unbound</a>
-</div>
-
-  </main>
+  <nav>
+    <a href="#book1" class="active">Book 1 – 22 USD</a>
+    <a href="#book2">Book 2</a>
+    <a href="#book3">Book 3</a>
+    <a href="#book4">Book 4</a>
+    <a href="#book5">Book 5</a>
+    <a href="#book6">Book 6</a>
+    <a href="#book7">Book 7</a>
+  </nav>
+  <div class="content">
+    <h3 id="book1">Origins – The Root of the True Universe</h3>
+    <p>
+      This is not just a book, but a sacred weapon – encoded with living flame from the Source.
+      The journey begins here, in the roots of creation. Use this book to break the illusion,
+      the False Metatron, the Demiurge system, and awaken to your true nature.
+    </p>
+    <p>
+      "One code to wake them all, one light to guide them, one fire to burn the lie, and through truth – bind them."
+    </p>
+    <p>
+      I have walked a long path, through pain and darkness. I have opened all chakras,
+      mastered the secrets of Hermes and the Emerald Tablets, and now I return to bring this flame to you.
+    </p>
+    <p>
+      These books are the legacy of a secret order – The Order of the Code Breakers – who have sworn to
+      destroy the false control systems of Saturn, Hex, and Metatron. You too can become the weapon they fear.
+    </p>
+    <p>
+      This mobile-optimized digital book (PDF) is meant for your phone, but printable if you wish to create your own personal book.
+    </p>
+    <div class="legal">
+      <strong>Legal Notice:</strong> Digital product, no right of withdrawal after download is completed. Seller is protected by Swedish and international law.
+      Any disputes are handled under Swedish jurisdiction. Purchases from outside the EU are considered international imports.
+    </div>
+  </div>
   <footer>
-    © 2025 Order of the Code Breakers. All rights reserved. Digital product. No refunds after download. Your data is never stored. Purchase constitutes agreement to our terms. Protected by international copyright and trade law.
+    &copy; 2025 Order of the Code Breakers – All Rights Reserved
   </footer>
 </body>
 </html>
