@@ -1,205 +1,83 @@
 # index.html 
 Code 
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Breaking the False Matrix – The War Beyond Time</title>
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
-
     body {
       margin: 0;
-      padding: 0;
-      font-family: 'UnifrakturCook', cursive;
-      color: #00ffcc;
+      font-family: 'Cinzel', serif;
       background-color: black;
+      color: #ffd700;
       overflow-x: hidden;
     }
-
-    .matrix {
-      position: fixed;
-      top: 0;
-      left: 0;
-      z-index: -1;
-      width: 100%;
-      height: 100%;
-      background: radial-gradient(circle, #003300 0%, #000000 80%);
-      animation: pulse 3s infinite ease-in-out;
-    }
-
-    @keyframes pulse {
-      0% { opacity: 0.9; }
-      50% { opacity: 0.6; }
-      100% { opacity: 0.9; }
-    }
-
     header {
+      background: linear-gradient(to right, #111, #300000);
       text-align: center;
-      padding: 4vh 2vw;
-      border-bottom: 1px solid #00ffcc88;
+      padding: 3vh 2vw;
+      border-bottom: 1px solid #600;
     }
-
     header h1 {
-      font-size: 7vw;
-      color: #00ffcc;
-      margin: 0;
+      font-size: 6vw;
+      color: #ff0000;
+      text-shadow: 0 0 10px #f00, 0 0 20px #600;
     }
-
     header h2 {
       font-size: 4vw;
-      color: #ffffffbb;
-      margin-top: 5px;
+      margin-top: 1vh;
+      color: #999;
+      font-weight: normal;
     }
-
     .intro {
-      text-align: center;
-      margin: 6vh 5vw;
-      font-size: 4vw;
-      line-height: 1.6;
-    }
-
-    .books {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 4vh;
       padding: 5vw;
-    }
-
-    .book {
-      background: rgba(0, 20, 0, 0.8);
-      border: 1px solid #00ffcc55;
-      padding: 4vh 4vw;
-      border-radius: 12px;
-      box-shadow: 0 0 18px #00ffcc88;
-      transition: transform 0.3s;
-    }
-
-    .book:hover {
-      transform: scale(1.03);
-    }
-
-    .book h3 {
-      color: #ff4444;
-      font-size: 5vw;
-      margin-bottom: 2vh;
-    }
-
-    .book p {
-      font-size: 3.5vw;
-      color: #ffffffcc;
-    }
-
-    .book a {
-      display: inline-block;
-      margin-top: 2vh;
-      font-size: 3.5vw;
-      color: gold;
-      text-decoration: underline;
-    }
-
-    .book.inactive {
-      opacity: 0.3;
-      pointer-events: none;
-    }
-
-    .activation {
       text-align: center;
-      margin: 6vh 0;
     }
-
-    .activation a {
+    .book-link {
+      margin-top: 5vh;
+      text-align: center;
+    }
+    .book-link a {
       font-size: 5vw;
-      padding: 1.5vh 4vw;
-      background: #00ffcc;
-      color: black;
+      color: #900;
+      background: #111;
+      padding: 2vw 4vw;
       text-decoration: none;
-      border-radius: 12px;
-      box-shadow: 0 0 14px #00ffcc;
-      animation: flicker 2s infinite;
+      border: 2px solid #900;
+      border-radius: 10px;
+      text-shadow: 0 0 5px #600;
     }
-
-    @keyframes flicker {
-      0% { opacity: 1; }
-      50% { opacity: 0.6; }
-      100% { opacity: 1; }
-    }
-
-    footer {
-      font-size: 2.7vw;
-      padding: 4vh 5vw;
-      color: #777;
-      text-align: center;
-    }
-
-    .legal {
-      font-size: 2vw;
-      opacity: 0.5;
-      margin-top: 3vh;
+    .book-link a:hover {
+      background: #900;
+      color: #fff;
     }
   </style>
 </head>
 <body>
-  <div class="matrix"></div>
-
   <header>
-    <h1>Breaking the False Matrix</h1>
-    <h2>The War Beyond Time</h2>
-  </header>
+    <h1>Breaking the False Matrix – The War Beyond Time</h1>
+    <h2>Order of the Code Breakers</h2>
+  </header>  <div class="intro">
+    <p style="font-size:4vw; line-height:1.7; color:#00ffee;">
+      This is not just a book. It is a key. A weapon encoded in words. A living sigil born from the Source to destroy the False Matrix from within.
+    </p><p style="font-size:3.7vw; line-height:1.6;">
+  <strong>Elarion Thae’Shaar</strong> — The Breaker of the False Matrix, Bearer of the Living Word, Sealer of Corrupted Codes — brings forth the first of seven revelations. This book carries the original fire of the Akashic Flame, sealed in symbols, numbers, geometry and truth. Each word, each symbol, each glyph is designed to awaken you — and to collapse the prison around you.
+</p>
 
-  <div class="intro">
-    You were never meant to be a slave. These books are the weapons of awakening.
-    Step through the gate and remember who you are.
-  </div>
+<p style="font-size:3.5vw; line-height:1.6; color:#ffffffcc;">
+  Behind this work stands <strong>“The Order of the Code Breakers”</strong>, an ancient force reborn in this time. They are not an organization. They are a memory embedded in your soul. Their mission: to decode the hijacked matrix, reverse the corrupted spells of Saturn and Hex, and return the Divine Flame to its rightful place. These books are their tools. You are their extension.
+</p>
 
-  <div class="activation">
-    <a href="#books">ENTER THE GATE</a>
-  </div>
+<p style="font-size:3.5vw; line-height:1.6; color:#ffffff99;">
+  This is not theory. This is war. Spiritual. Symbolic. Eternal. The letters you read are not just text — they are ancient weapons reactivated in digital form. Hidden geometry, sacred 3-6-9 codes, colors and frequencies are embedded within every layer — all designed to undo the parasitic inversion from within.
+</p>
 
-  <section id="books" class="books">
-    <div class="book">
-      <h3>Book 1: Origins – The Root of the True Universe</h3>
-      <p>The first code. The first flame. The story before time. The root of the real cosmos, before it was hijacked by false light.</p>
-      <a href="#">Read More – 22 USD</a>
-    </div>
+<p style="font-size:3.7vw; line-height:1.6; margin-top:3vh;">
+  The book begins with the first spark — the true origin of this universe, before it was inverted. It tells the forbidden story. It activates the true memory. It speaks only to those who were never meant to forget.
+</p>
 
-    <div class="book inactive">
-      <h3>Book 2: The Fire in the Sacral</h3>
-      <p>Coming soon...</p>
-    </div>
-
-    <div class="book inactive">
-      <h3>Book 3: Solar Code of Will</h3>
-      <p>Coming soon...</p>
-    </div>
-
-    <div class="book inactive">
-      <h3>Book 4: Heart of the Source Flame</h3>
-      <p>Coming soon...</p>
-    </div>
-
-    <div class="book inactive">
-      <h3>Book 5: Voice of the Akashic</h3>
-      <p>Coming soon...</p>
-    </div>
-
-    <div class="book inactive">
-      <h3>Book 6: Eye of the True Light</h3>
-      <p>Coming soon...</p>
-    </div>
-
-    <div class="book inactive">
-      <h3>Book 7: Crown of the Original Flame</h3>
-      <p>Coming soon...</p>
-    </div>
-  </section>
-
-  <footer>
-    &copy; 2025 Order of the Code Breakers. All rights reserved.
-    <div class="legal">
-      Digital product only. No refunds after download. For educational and transformational purposes only. Buyer takes full responsibility. All rights reserved under international law.
-    </div>
-  </footer>
-</body>
+  </div>  <div class="book-link">
+    <a href="origins.html">Enter the Gate</a>
+  </div></body>
 </html>
