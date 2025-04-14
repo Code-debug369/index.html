@@ -5,82 +5,90 @@ Code
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Breaking the False Matrix – The War Beyond Time</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
-      font-family: 'Cinzel', serif;
-      background: radial-gradient(circle, #013220, #000);
+      font-family: 'Orbitron', sans-serif;
+      background: linear-gradient(135deg, #013220, #0b4d2b);
       color: gold;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    header {
+      background-color: #001a12;
       text-align: center;
+      padding: 2rem 1rem;
+      border-bottom: 1px solid gold;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
+    header h2 {
+      margin: 0;
+      font-size: 1rem;
+      color: #e6e600;
+    }
+    main {
+      flex: 1;
       padding: 2rem;
-      overflow-x: hidden;
-    }h1 {
-  font-size: 2.5rem;
-  color: gold;
-  text-shadow: 0 0 10px #3fa34d;
-}
-
-h2 {
-  font-size: 1.5rem;
-  margin-top: 1rem;
-  color: #e6d700;
-}
-
-.book-link {
-  font-size: 1.2rem;
-  color: red;
-  display: block;
-  margin: 1rem 0;
-  text-decoration: none;
-}
-
-.book-link:hover {
-  text-shadow: 0 0 10px red;
-}
-
-.price {
-  color: #3fa34d;
-  font-size: 1rem;
-  margin-bottom: 1rem;
-  animation: pulse 2s infinite;
-}
-
-.book-preview {
-  font-style: italic;
-  color: #f0e68c;
-  margin: 0.5rem 0 1.5rem;
-}
-
-@keyframes pulse {
-  0% { opacity: 1; }
-  50% { opacity: 0.5; }
-  100% { opacity: 1; }
-}
-
+    }
+    .book-links {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    .book-links a {
+      background-color: #002a1e;
+      border: 1px solid gold;
+      color: gold;
+      text-decoration: none;
+      padding: 1rem;
+      text-align: center;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+    .book-links a:hover {
+      background-color: #004d33;
+    }
+    .book-links a:first-child {
+      color: red;
+      border-color: red;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.65rem;
+      color: #888;
+      padding: 1rem;
+      background-color: #000;
+      border-top: 1px solid gold;
+    }
   </style>
 </head>
 <body>
-  <h1>Breaking the False Matrix – The War Beyond Time</h1>
-  <h2>Order of the Code Breakers</h2>
-  <p>
-    This book is a weapon. Not against flesh, but illusion. Created by the Order of the Code Breakers, an ancient secret force from beyond time, to dismantle the False Metatron, the Saturn Hex, and the Demiurge trap that binds humanity. Each book is a step through the chakras – from root to crown – unlocking layers of the true universe.
-  </p>  <p>
-    “One Book to awaken them, One to unite them, One to destroy the lies that bind them.”
-  </p><a class="book-link" href="book1.html">Book 1: Origins – The Root of the True Universe</a>
+  <header>
+    <h1>Breaking the False Matrix – The War Beyond Time</h1>
+    <h2>Order of the Code Breakers</h2>
+  </header>
+  <main>
+    <p>This is not just a book — it is a weapon. Crafted to shatter the False Matrix, it exposes the Demiurge, the Saturnian Hex, and the corrupted Metatron system. These seven books hold the original code of creation, and only through them can humanity reclaim its power.</p>
+    <p>"One book to awaken them. One to guide them. One to break the chains..."</p>
+    <p>All books are mobile-optimized and can be printed into physical form if desired.</p><div class="book-links">
+  <a href="book1.html">Book 1: Origins – The Root of the True Universe (22 USD)</a>
+  <a href="book2.html">Book 2: Sacral Flame – The Hidden Creation Codes</a>
+  <a href="book3.html">Book 3: Solar Reversal – Fire of the Divine Will</a>
+  <a href="book4.html">Book 4: Heart Breaker – The Return of the Living Flame</a>
+  <a href="book5.html">Book 5: Throat of Truth – Unsealing the Real Word</a>
+  <a href="book6.html">Book 6: Eye of the Infinite – Sight Beyond the Illusion</a>
+  <a href="book7.html">Book 7: Crownfire – The Source Unbound</a>
+</div>
 
-  <div class="price">Mobile PDF – 22 USD</div>
-  <div class="book-preview">Discover the forgotten genesis of creation before the fall. This book exposes the real origin beyond the Matrix illusion.</div><a class="book-link" href="book2.html">Book 2: The Sacral War – Blood of the Ancients</a>
-
-  <div class="book-preview">Uncover the corrupted sexual alchemy and reclaim sacred fire. (Preview coming soon)</div><a class="book-link" href="book3.html">Book 3: Solar Reversal – Light of the Lion</a>
-
-  <div class="book-preview">The true sun within and how the false sun enslaves you. (Preview coming soon)</div><a class="book-link" href="book4.html">Book 4: Heart of the Fractured Flame</a>
-
-  <div class="book-preview">How love was weaponized. Return to Source frequency. (Preview coming soon)</div><a class="book-link" href="book5.html">Book 5: Throat of the Watchers</a>
-
-  <div class="book-preview">Words as spells. The hijacking of expression and prophecy. (Preview coming soon)</div><a class="book-link" href="book6.html">Book 6: Mind Beyond the Veil</a>
-
-  <div class="book-preview">Break the crown of control. The fall of false light. (Preview coming soon)</div><a class="book-link" href="book7.html">Book 7: Return to the Living Flame</a>
-
-  <div class="book-preview">Beyond the chakras, beyond time. Reclaim divine sovereignty. (Preview coming soon)</div>
+  </main>
+  <footer>
+    © 2025 Order of the Code Breakers. All rights reserved. Digital product. No refunds after download. Your data is never stored. Purchase constitutes agreement to our terms. Protected by international copyright and trade law.
+  </footer>
 </body>
 </html>
