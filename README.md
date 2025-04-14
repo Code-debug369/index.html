@@ -2,8 +2,8 @@
 Code
 <!DOCTYPE html><html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Breaking the False Matrix – The War Beyond Time</title>
   <style>
     body {
@@ -12,85 +12,96 @@ Code
       background: black;
       color: #00ff99;
       overflow-x: hidden;
-    }.matrix-bg {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 100vw;
-  z-index: -1;
-  background: black;
-  animation: matrixScroll 30s linear infinite;
-  opacity: 0.15;
-}
-
-@keyframes matrixScroll {
-  0% { background-position: 0 0; }
-  100% { background-position: 0 1000px; }
-}
-
-.container {
-  padding: 3rem;
-  text-align: center;
-}
-
-h1 {
-  font-size: 2.5rem;
-  color: #00ff99;
-  margin-bottom: 0.5rem;
-}
-
-h2 {
-  font-size: 1.5rem;
-  margin-top: 0;
-  color: #00cc88;
-}
-
-p {
-  font-size: 1.1rem;
-  max-width: 700px;
-  margin: 1rem auto;
-  line-height: 1.6;
-}
-
-.book-link {
-  display: inline-block;
-  margin-top: 2rem;
-  padding: 1rem 2rem;
-  background-color: red;
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 6px;
-}
-
-.quote {
-  margin-top: 3rem;
-  font-style: italic;
-  color: #00ffcc;
-}
-
+    }
+    header {
+      background: linear-gradient(to right, #000, #0f0f0f);
+      padding: 2rem;
+      text-align: center;
+      border-bottom: 2px solid red;
+    }
+    header h1 {
+      color: #ff0000;
+      font-size: 2rem;
+    }
+    header h2 {
+      color: #ffffff;
+      margin-top: 0.5rem;
+    }
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    .book-link {
+      background-color: #111;
+      padding: 1rem;
+      margin: 1rem 0;
+      border: 1px solid #00ff99;
+      border-radius: 12px;
+    }
+    .book-link a {
+      color: #ff0000;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .book-link.inactive a {
+      color: gray;
+      pointer-events: none;
+    }
+    .matrix-background {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      width: 100vw;
+      height: 100vh;
+      background: url('https://media.giphy.com/media/oEI9uBYSzLpBK/giphy.gif') repeat;
+      opacity: 0.08;
+    }
   </style>
 </head>
 <body>
-  <div class="matrix-bg"></div>
-  <div class="container">
+  <div class="matrix-background"></div>
+  <header>
     <h1>Breaking the False Matrix – The War Beyond Time</h1>
-    <h2>by Order of the Code Breakers</h2><p>
-  This book is not just a story – it is a weapon. A frequency. A memory embedded in the core of your being. Created to break the false matrix, destroy the corrupted codes, and activate the fire within.
-</p>
-
-<p>
-  You were never meant to forget. But now, through this gateway of knowledge, remembrance returns. This is the first of seven books – one for each seal, each gate, each chakra. Each revealing the deeper codes and higher truths.
-</p>
-
-<a class="book-link" href="#">Access Book 1 – Origins</a>
-
-<p class="quote">
-  One book to awaken them, One to guide them,<br>
-  One to break the chains, and into Source, unite them.
-</p>
-
-  </div>
+    <h2>by Order of the Code Breakers</h2>
+  </header>  <section>
+    <p>
+      This book is not just a book. It’s a weapon – forged in the fires of forgotten time, coded with truth from beyond the veil.
+      It was created by the ancient and secretive Order of the Code Breakers – beings sent to shatter the False Metatron, dismantle the Hex, and expose the Saturnian deception.
+    </p>
+    <p>
+      "One word to awaken them. One book to bind them. One flame to break the chains and one truth to free them all."
+    </p>
+    <h3>Book Series: The Chakra Codex</h3>
+    <div class="book-link">
+      <a href="root.html">Book 1: Origins – The Root of the True Universe</a>
+      <p>Preview: Discover the true history of the universe. The root of all creation, the secret of the first fracture. This is where the war begins...</p>
+    </div>
+    <div class="book-link inactive">
+      <a href="#">Book 2: Flame of the Sacral</a>
+      <p>Coming soon – Preview the energy of desire, creation, and original memory. Activate the second seal.</p>
+    </div>
+    <div class="book-link inactive">
+      <a href="#">Book 3: Solar Revelation</a>
+      <p>Coming soon – Step into the sun gate and reclaim your inner sovereign.</p>
+    </div>
+    <div class="book-link inactive">
+      <a href="#">Book 4: The Heart Mirror</a>
+      <p>Coming soon – The truth in love, the weapon of compassion. The heart knows.</p>
+    </div>
+    <div class="book-link inactive">
+      <a href="#">Book 5: Voice of the Flame</a>
+      <p>Coming soon – Break the silence, wield the Word, seal corrupted codes with the breath of Source.</p>
+    </div>
+    <div class="book-link inactive">
+      <a href="#">Book 6: Eye of Infinity</a>
+      <p>Coming soon – The all-seeing sight of what has been hidden. Vision beyond time.</p>
+    </div>
+    <div class="book-link inactive">
+      <a href="#">Book 7: Crown of the Reclaimed</a>
+      <p>Coming soon – The final convergence. Rise beyond the illusion and break the cycle forever.</p>
+    </div>
+  </section>
 </body>
 </html>
