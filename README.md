@@ -1,93 +1,86 @@
-# index.html
-code
+# index.html 
+Code 
 <!DOCTYPE html><html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Breaking the False Matrix – The War Beyond Time</title>
-    <style>
-      body {
-        margin: 0;
-        font-family: 'Cinzel', serif;
-        background: radial-gradient(ellipse at center, #014421 0%, #000000 100%);
-        color: gold;
-        overflow-x: hidden;
-      }header {
-    text-align: center;
-    padding: 2rem;
-    background-color: rgba(0, 0, 0, 0.8);
-    box-shadow: 0 0 20px gold;
-  }
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Breaking the False Matrix – The War Beyond Time</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Cinzel', serif;
+      background: radial-gradient(circle, #013220, #000);
+      color: gold;
+      text-align: center;
+      padding: 2rem;
+      overflow-x: hidden;
+    }h1 {
+  font-size: 2.5rem;
+  color: gold;
+  text-shadow: 0 0 10px #3fa34d;
+}
 
-  header h1 {
-    font-size: 2.5rem;
-    margin: 0;
-    color: gold;
-  }
+h2 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  color: #e6d700;
+}
 
-  header h2 {
-    font-size: 1.3rem;
-    color: #ffd700;
-    margin-top: 0.5rem;
-  }
+.book-link {
+  font-size: 1.2rem;
+  color: red;
+  display: block;
+  margin: 1rem 0;
+  text-decoration: none;
+}
 
-  .section {
-    padding: 2rem;
-    background-color: rgba(1, 68, 33, 0.85);
-    margin: 2rem;
-    border: 1px solid gold;
-    border-radius: 1rem;
-    box-shadow: 0 0 12px gold;
-  }
+.book-link:hover {
+  text-shadow: 0 0 10px red;
+}
 
-  .book-links a {
-    display: block;
-    margin: 0.5rem 0;
-    padding: 1rem;
-    background: linear-gradient(to right, gold, #b8860b);
-    color: black;
-    font-weight: bold;
-    border-radius: 0.5rem;
-    text-decoration: none;
-    transition: transform 0.3s, box-shadow 0.3s;
-  }
+.price {
+  color: #3fa34d;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  animation: pulse 2s infinite;
+}
 
-  .book-links a:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 10px gold;
-  }
+.book-preview {
+  font-style: italic;
+  color: #f0e68c;
+  margin: 0.5rem 0 1.5rem;
+}
 
-  .coming-soon {
-    color: #888;
-    font-style: italic;
-  }
-</style>
+@keyframes pulse {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
 
-  </head>
-  <body>
-    <header>
-      <h1>Breaking the False Matrix – The War Beyond Time</h1>
-      <h2>Order of the Code Breakers</h2>
-    </header>
-    <div class="section">
-      <p>
-        This book is not just a story – it is a weapon. A weapon against deception, against the false god Metatron,
-        Saturn’s Hex, and the Demiurge that bound this world. The Order of the Code Breakers, a hidden lineage of
-        truthbearers, presents this work to awaken the warriors of light. Use this book to remember, to decode, and to
-        destroy the prison built around your soul.
-      </p>
-      <p>
-        “One book to ignite the soul… One to reveal the lie… One to destroy the system.”
-      </p>
-    </div>
-    <div class="section book-links">
-      <a href="root.html">Book 1 – Origins (Root Chakra)</a>
-      <a href="#" class="coming-soon">Book 2 – Sacral: Coming Soon</a>
-      <a href="#" class="coming-soon">Book 3 – Solar Plexus: Coming Soon</a>
-      <a href="#" class="coming-soon">Book 4 – Heart: Coming Soon</a>
-      <a href="#" class="coming-soon">Book 5 – Throat: Coming Soon</a>
-      <a href="#" class="coming-soon">Book 6 – Third Eye: Coming Soon</a>
-      <a href="#" class="coming-soon">Book 7 – Crown: Coming Soon</a>
-    </div>
-  </body>
+  </style>
+</head>
+<body>
+  <h1>Breaking the False Matrix – The War Beyond Time</h1>
+  <h2>Order of the Code Breakers</h2>
+  <p>
+    This book is a weapon. Not against flesh, but illusion. Created by the Order of the Code Breakers, an ancient secret force from beyond time, to dismantle the False Metatron, the Saturn Hex, and the Demiurge trap that binds humanity. Each book is a step through the chakras – from root to crown – unlocking layers of the true universe.
+  </p>  <p>
+    “One Book to awaken them, One to unite them, One to destroy the lies that bind them.”
+  </p><a class="book-link" href="book1.html">Book 1: Origins – The Root of the True Universe</a>
+
+  <div class="price">Mobile PDF – 22 USD</div>
+  <div class="book-preview">Discover the forgotten genesis of creation before the fall. This book exposes the real origin beyond the Matrix illusion.</div><a class="book-link" href="book2.html">Book 2: The Sacral War – Blood of the Ancients</a>
+
+  <div class="book-preview">Uncover the corrupted sexual alchemy and reclaim sacred fire. (Preview coming soon)</div><a class="book-link" href="book3.html">Book 3: Solar Reversal – Light of the Lion</a>
+
+  <div class="book-preview">The true sun within and how the false sun enslaves you. (Preview coming soon)</div><a class="book-link" href="book4.html">Book 4: Heart of the Fractured Flame</a>
+
+  <div class="book-preview">How love was weaponized. Return to Source frequency. (Preview coming soon)</div><a class="book-link" href="book5.html">Book 5: Throat of the Watchers</a>
+
+  <div class="book-preview">Words as spells. The hijacking of expression and prophecy. (Preview coming soon)</div><a class="book-link" href="book6.html">Book 6: Mind Beyond the Veil</a>
+
+  <div class="book-preview">Break the crown of control. The fall of false light. (Preview coming soon)</div><a class="book-link" href="book7.html">Book 7: Return to the Living Flame</a>
+
+  <div class="book-preview">Beyond the chakras, beyond time. Reclaim divine sovereignty. (Preview coming soon)</div>
+</body>
 </html>
