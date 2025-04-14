@@ -1,122 +1,205 @@
 # index.html 
 Code 
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Breaking the False Matrix – The War Beyond Time</title>
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
+
     body {
       margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: radial-gradient(ellipse at center, #014421 0%, #000000 100%);
-      color: gold;
+      padding: 0;
+      font-family: 'UnifrakturCook', cursive;
+      color: #00ffcc;
+      background-color: black;
       overflow-x: hidden;
     }
-    .glow {
-      text-shadow: 0 0 5px #00ffae, 0 0 10px #00ffae, 0 0 20px #00ffae, 0 0 40px #00ffae;
+
+    .matrix {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      width: 100%;
+      height: 100%;
+      background: radial-gradient(circle, #003300 0%, #000000 80%);
+      animation: pulse 3s infinite ease-in-out;
     }
+
+    @keyframes pulse {
+      0% { opacity: 0.9; }
+      50% { opacity: 0.6; }
+      100% { opacity: 0.9; }
+    }
+
     header {
-      padding: 2rem;
       text-align: center;
-      background-color: rgba(0, 0, 0, 0.7);
+      padding: 4vh 2vw;
+      border-bottom: 1px solid #00ffcc88;
     }
-    h1 {
-      font-size: 2.5rem;
-      margin-bottom: 0.5rem;
+
+    header h1 {
+      font-size: 7vw;
+      color: #00ffcc;
+      margin: 0;
     }
-    h2 {
-      font-size: 1.2rem;
-      font-weight: normal;
-      margin-top: 0;
+
+    header h2 {
+      font-size: 4vw;
+      color: #ffffffbb;
+      margin-top: 5px;
     }
-    nav {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 1rem;
-      padding: 1rem;
+
+    .intro {
+      text-align: center;
+      margin: 6vh 5vw;
+      font-size: 4vw;
+      line-height: 1.6;
     }
-    nav a {
-      text-decoration: none;
+
+    .books {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 4vh;
+      padding: 5vw;
+    }
+
+    .book {
+      background: rgba(0, 20, 0, 0.8);
+      border: 1px solid #00ffcc55;
+      padding: 4vh 4vw;
+      border-radius: 12px;
+      box-shadow: 0 0 18px #00ffcc88;
+      transition: transform 0.3s;
+    }
+
+    .book:hover {
+      transform: scale(1.03);
+    }
+
+    .book h3 {
+      color: #ff4444;
+      font-size: 5vw;
+      margin-bottom: 2vh;
+    }
+
+    .book p {
+      font-size: 3.5vw;
+      color: #ffffffcc;
+    }
+
+    .book a {
+      display: inline-block;
+      margin-top: 2vh;
+      font-size: 3.5vw;
       color: gold;
-      padding: 0.5rem 1rem;
-      border: 1px solid gold;
-      border-radius: 8px;
-      transition: background 0.3s, color 0.3s;
+      text-decoration: underline;
     }
-    nav a:hover {
-      background: gold;
+
+    .book.inactive {
+      opacity: 0.3;
+      pointer-events: none;
+    }
+
+    .activation {
+      text-align: center;
+      margin: 6vh 0;
+    }
+
+    .activation a {
+      font-size: 5vw;
+      padding: 1.5vh 4vw;
+      background: #00ffcc;
       color: black;
+      text-decoration: none;
+      border-radius: 12px;
+      box-shadow: 0 0 14px #00ffcc;
+      animation: flicker 2s infinite;
     }
-    nav a.active {
-      background: darkred;
-      color: gold;
-      font-weight: bold;
+
+    @keyframes flicker {
+      0% { opacity: 1; }
+      50% { opacity: 0.6; }
+      100% { opacity: 1; }
     }
-    .content {
-      max-width: 900px;
-      margin: auto;
-      padding: 2rem;
-      background-color: rgba(0, 0, 0, 0.6);
-      border-radius: 20px;
-      box-shadow: 0 0 20px #00ffae;
-    }
+
     footer {
+      font-size: 2.7vw;
+      padding: 4vh 5vw;
+      color: #777;
       text-align: center;
-      padding: 2rem 1rem;
-      font-size: 0.7rem;
-      color: #aaa;
     }
+
     .legal {
-      font-size: 0.65rem;
-      color: #666;
-      margin-top: 2rem;
+      font-size: 2vw;
+      opacity: 0.5;
+      margin-top: 3vh;
     }
   </style>
 </head>
 <body>
-  <header class="glow">
-    <h1>Breaking the False Matrix – The War Beyond Time</h1>
-    <h2>Order of the Code Breakers</h2>
+  <div class="matrix"></div>
+
+  <header>
+    <h1>Breaking the False Matrix</h1>
+    <h2>The War Beyond Time</h2>
   </header>
-  <nav>
-    <a href="#book1" class="active">Book 1 – 22 USD</a>
-    <a href="#book2">Book 2</a>
-    <a href="#book3">Book 3</a>
-    <a href="#book4">Book 4</a>
-    <a href="#book5">Book 5</a>
-    <a href="#book6">Book 6</a>
-    <a href="#book7">Book 7</a>
-  </nav>
-  <div class="content">
-    <h3 id="book1">Origins – The Root of the True Universe</h3>
-    <p>
-      This is not just a book, but a sacred weapon – encoded with living flame from the Source.
-      The journey begins here, in the roots of creation. Use this book to break the illusion,
-      the False Metatron, the Demiurge system, and awaken to your true nature.
-    </p>
-    <p>
-      "One code to wake them all, one light to guide them, one fire to burn the lie, and through truth – bind them."
-    </p>
-    <p>
-      I have walked a long path, through pain and darkness. I have opened all chakras,
-      mastered the secrets of Hermes and the Emerald Tablets, and now I return to bring this flame to you.
-    </p>
-    <p>
-      These books are the legacy of a secret order – The Order of the Code Breakers – who have sworn to
-      destroy the false control systems of Saturn, Hex, and Metatron. You too can become the weapon they fear.
-    </p>
-    <p>
-      This mobile-optimized digital book (PDF) is meant for your phone, but printable if you wish to create your own personal book.
-    </p>
-    <div class="legal">
-      <strong>Legal Notice:</strong> Digital product, no right of withdrawal after download is completed. Seller is protected by Swedish and international law.
-      Any disputes are handled under Swedish jurisdiction. Purchases from outside the EU are considered international imports.
-    </div>
+
+  <div class="intro">
+    You were never meant to be a slave. These books are the weapons of awakening.
+    Step through the gate and remember who you are.
   </div>
+
+  <div class="activation">
+    <a href="#books">ENTER THE GATE</a>
+  </div>
+
+  <section id="books" class="books">
+    <div class="book">
+      <h3>Book 1: Origins – The Root of the True Universe</h3>
+      <p>The first code. The first flame. The story before time. The root of the real cosmos, before it was hijacked by false light.</p>
+      <a href="#">Read More – 22 USD</a>
+    </div>
+
+    <div class="book inactive">
+      <h3>Book 2: The Fire in the Sacral</h3>
+      <p>Coming soon...</p>
+    </div>
+
+    <div class="book inactive">
+      <h3>Book 3: Solar Code of Will</h3>
+      <p>Coming soon...</p>
+    </div>
+
+    <div class="book inactive">
+      <h3>Book 4: Heart of the Source Flame</h3>
+      <p>Coming soon...</p>
+    </div>
+
+    <div class="book inactive">
+      <h3>Book 5: Voice of the Akashic</h3>
+      <p>Coming soon...</p>
+    </div>
+
+    <div class="book inactive">
+      <h3>Book 6: Eye of the True Light</h3>
+      <p>Coming soon...</p>
+    </div>
+
+    <div class="book inactive">
+      <h3>Book 7: Crown of the Original Flame</h3>
+      <p>Coming soon...</p>
+    </div>
+  </section>
+
   <footer>
-    &copy; 2025 Order of the Code Breakers – All Rights Reserved
+    &copy; 2025 Order of the Code Breakers. All rights reserved.
+    <div class="legal">
+      Digital product only. No refunds after download. For educational and transformational purposes only. Buyer takes full responsibility. All rights reserved under international law.
+    </div>
   </footer>
 </body>
 </html>
