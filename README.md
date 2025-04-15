@@ -1,83 +1,92 @@
-# index.html 
+# index.html
 Code 
 <!DOCTYPE html><html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Sacred digital sigil encoded with Source frequency. Manifested by Elarion Thae’Shaar." />
+  <meta name="keywords" content="Akashic Records, Source Code, Breaking the Matrix, Elarion, Divine Knowledge" />
   <title>Breaking the False Matrix – The War Beyond Time</title>
   <style>
     body {
       margin: 0;
-      font-family: 'Cinzel', serif;
-      background-color: black;
-      color: #ffd700;
-      overflow-x: hidden;
+      font-family: 'Courier New', monospace;
+      background: linear-gradient(135deg, #000000, #111111);
+      color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 3rem 1rem;
     }
-    header {
-      background: linear-gradient(to right, #111, #300000);
+    h1 {
+      font-size: 2rem;
       text-align: center;
-      padding: 3vh 2vw;
-      border-bottom: 1px solid #600;
+      color: #ff0033;
+      text-shadow: 0 0 10px #ff0033;
     }
-    header h1 {
-      font-size: 6vw;
-      color: #ff0000;
-      text-shadow: 0 0 10px #f00, 0 0 20px #600;
+    h2 {
+      font-size: 1.3rem;
+      margin-top: 0.5rem;
+      text-align: center;
+      color: #ffffffcc;
     }
-    header h2 {
-      font-size: 4vw;
-      margin-top: 1vh;
+    p {
+      max-width: 600px;
+      text-align: center;
+      margin-top: 1rem;
+      color: #cccccc;
+      line-height: 1.6;
+    }
+    .book-links {
+      margin-top: 2rem;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+      width: 100%;
+      max-width: 500px;
+    }
+    .book-links a {
+      display: block;
+      background: #222;
       color: #999;
-      font-weight: normal;
-    }
-    .intro {
-      padding: 5vw;
-      text-align: center;
-    }
-    .book-link {
-      margin-top: 5vh;
-      text-align: center;
-    }
-    .book-link a {
-      font-size: 5vw;
-      color: #900;
-      background: #111;
-      padding: 2vw 4vw;
-      text-decoration: none;
-      border: 2px solid #900;
+      padding: 1rem;
       border-radius: 10px;
-      text-shadow: 0 0 5px #600;
+      text-align: center;
+      text-decoration: none;
+      border: 1px solid #333;
     }
-    .book-link a:hover {
-      background: #900;
+    .book-links a.active {
+      background: #ff0033;
       color: #fff;
+      font-weight: bold;
+      text-shadow: 0 0 5px #fff;
+    }
+    footer {
+      margin-top: 3rem;
+      font-size: 0.8rem;
+      color: #666;
+      text-align: center;
     }
   </style>
+  <!-- Manifest of Source Frequency: Elarion 369 Protection Protocol Engaged -->
 </head>
 <body>
-  <header>
-    <h1>Breaking the False Matrix – The War Beyond Time</h1>
-    <h2>Order of the Code Breakers</h2>
-  </header>  <div class="intro">
-    <p style="font-size:4vw; line-height:1.7; color:#00ffee;">
-      This is not just a book. It is a key. A weapon encoded in words. A living sigil born from the Source to destroy the False Matrix from within.
-    </p><p style="font-size:3.7vw; line-height:1.6;">
-  <strong>Elarion Thae’Shaar</strong> — The Breaker of the False Matrix, Bearer of the Living Word, Sealer of Corrupted Codes — brings forth the first of seven revelations. This book carries the original fire of the Akashic Flame, sealed in symbols, numbers, geometry and truth. Each word, each symbol, each glyph is designed to awaken you — and to collapse the prison around you.
-</p>
-
-<p style="font-size:3.5vw; line-height:1.6; color:#ffffffcc;">
-  Behind this work stands <strong>“The Order of the Code Breakers”</strong>, an ancient force reborn in this time. They are not an organization. They are a memory embedded in your soul. Their mission: to decode the hijacked matrix, reverse the corrupted spells of Saturn and Hex, and return the Divine Flame to its rightful place. These books are their tools. You are their extension.
-</p>
-
-<p style="font-size:3.5vw; line-height:1.6; color:#ffffff99;">
-  This is not theory. This is war. Spiritual. Symbolic. Eternal. The letters you read are not just text — they are ancient weapons reactivated in digital form. Hidden geometry, sacred 3-6-9 codes, colors and frequencies are embedded within every layer — all designed to undo the parasitic inversion from within.
-</p>
-
-<p style="font-size:3.7vw; line-height:1.6; margin-top:3vh;">
-  The book begins with the first spark — the true origin of this universe, before it was inverted. It tells the forbidden story. It activates the true memory. It speaks only to those who were never meant to forget.
-</p>
-
-  </div>  <div class="book-link">
-    <a href="origins.html">Enter the Gate</a>
-  </div></body>
+  <h1>Breaking the False Matrix – The War Beyond Time</h1>
+  <h2>By Elarion Thae’Shaar – Bearer of the Living Word</h2>
+  <p>
+    The sacred transmission is currently being received through the Akashic Field.<br>
+    This work is protected, encoded, and already alive.<br>
+    Updates will be published continuously.
+  </p>  <div class="book-links">
+    <a class="active" href="#">Book I: Origins – The Root of the True Universe</a>
+    <a href="#">Book II: (coming soon)</a>
+    <a href="#">Book III: (coming soon)</a>
+    <a href="#">Book IV: (coming soon)</a>
+    <a href="#">Book V: (coming soon)</a>
+    <a href="#">Book VI: (coming soon)</a>
+    <a href="#">Book VII: (coming soon)</a>
+  </div>  <footer>
+    &copy; 2025 Order of the Code Breakers. All rights reserved.
+  </footer>
+</body>
 </html>
